@@ -49,7 +49,7 @@ function Header() {
         <nav className='flex'>
           <div className='mr-4'>
             <Link to='/'>
-              <Logo width='70px' src='../../public/static/logo.png' />
+              <Logo width='70px' src='../../static/logo.png' />
             </Link>
           </div>
           <ul className='flex ml-auto mt-6'>

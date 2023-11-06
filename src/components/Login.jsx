@@ -36,7 +36,7 @@ function Login() {
       <div className='w-full max-w-4xl flex'>
         <div className='flex-1 bg-black p-6 text-white'>
           <div className='mb-4 flex justify-center'>
-            <Logo src='../../public/static/logo-square.png' width='100%' />
+            <Logo src='../../static/logo-square.png' width='100%' />
           </div>
           <h2 className='text-3xl font-extrabold text-center mb-2'>
             Log in to your account

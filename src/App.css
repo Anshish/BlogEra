@@ -1,0 +1,17 @@
+.header{
+  font-family: 'Signika Negative', sans-serif;
+  border-color: #6f2232;
+  color: white;
+}
+
+.postcard{
+  font-family: 'Nunito', sans-serif;
+}
+
+.login{
+  height: 70vh;
+}
+
+.signup{
+  height: 70vh;
+}

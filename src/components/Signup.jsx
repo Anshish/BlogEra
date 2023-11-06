@@ -18,16 +18,14 @@ function Signup() {
     try {
       const userData = await authService.createAccount(data);
       if (userData) {
-        const userData = await authService.getCurrentUserData();
+        const userData = await authService.getCurrentUser();
         if (userData) {
           dispatch(authLogin(userData));
           navigate('/');
         }
       }
     } catch (error) {
-    //   setError(error.message);
-        setError('Fill password in correct format. Password must be at least 8 characters long, contain at least one uppercase letter, one lowercase letter, one number and one special character.')
-        console.log(error.message);
+      setError('Enter valid email and password. Password must be atleast 8 characters long.');
     }
   };
 
